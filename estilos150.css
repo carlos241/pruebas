@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(montaña.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+  
+}
+
+.menu {
+    margin-bottom: 15px;
+    color: white;
+    fill: currentColor;
+    margin-left: 2rem;
+}
+.containerh{
+    margin-top: 1rem;
+}
+
+
+#log {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.lupa {
+    fill: currentColor;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    color: white;
+}
+
+header {
+    color: aliceblue;
+    margin-top: 10px;
+  
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.titulo1 {
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-left: 2rem;
+}
+
+.titulo2 {
+    font-size: 50px;
+    width: fit-content;
+    color: white;
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    color: orange;
+}
+
+.titulo3 {
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+#lista1 li {
+    display: inline-block;
+    margin-right: 5px;
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#lista1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 2rem;
+    color: #e0eafc;
+    align-content: center;
+    margin-left: 2rem;   
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.noticia {
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background: #E0EAFC;
+    background-color: white;
+    margin-left: 0.2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+aside {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
+
+div.noticia img.izquierda {
+    float: left;
+    border-radius: 26px;
+}
+
+div.noticia img.derecha {
+    float: left;
+    border-radius: 26px;
+}
+
+.estrellas {
+    fill: currentColor;
+    margin-left: 15px;
+    color: purple;
+}
+
+.estrellasC {
+    fill: currentColor;
+    margin-left: 15px;
+    color: gray
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    margin-top: 0px;
+    display: flex;
+    width: 90px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: orange;
+    border-radius: 10px;
+}
